@@ -3,23 +3,30 @@
     <head>
         <title>WDD 230 Brother Hayes</title>
         <meta charset="utf-8">
-        <link rel='stylesheet' src='css/stylesheet.css'>
+        <meta name='description' content='Assignment portal for Brother Hayes in WDD 230: Web Frontend Development at Brigham Young University - Idaho' />        
+        <link rel='stylesheet' href='css/stylesheet.css'>
+        <script src="scripts/page.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <header>
-            <h1>Brother Adam Hayes</h1>
-        </header>
-        <main>
-            <h2>CIT 230: Assignment Portal</h2>
-            <ul>
-                <li>Lesson 02: <a href='#'>Assignment Link</a></li>
-                <li>Lesson 03: <a href='#'>Assignment Link</a></li>
-                <li>Lesson 04: <a href='#'>Link</a> | <a href='#'>Link</a></li>
-            </ul>
-        </main>
-        <footer>
-            <p>&copy; 2020 | Brother Adam Hayes | Idaho Falls | BYUI Online Learning</p>
-            <p class='highlight'>Last Updated: 09/15/2020 8:58:00</p>
-        </footer>
+        <div id='index-main'>
+            <header>
+                <img class='profile' src="images/hayesa.jpg" alt="Brother Hayes" >
+
+                <h1>Brother Adam Hayes</h1>
+            </header>
+            <main>
+                <h2>CIT 230: Assignment Portal</h2>
+                <ul>
+                    <li>Lesson 02: <a href='#'>Assignment Link</a></li>
+                    <li>Lesson 03: <a href='#'>Assignment Link</a></li>
+                    <li>Lesson 04: <a href='#'>Link</a> | <a href='#'>Link</a></li>
+                </ul>
+            </main>
+            <footer>
+                <p class='legal'>&copy; <span id='copyrightyear'>2019</span> | Brother Adam Hayes | Idaho | <a href='https://www.byui.edu/online'>BYUI Online Learning</a></p>
+                <p class='highlight'>Last Updated: <span id='lastupdated'></span></p>
+            </footer>
+        </div>
     </body>
 </html>
