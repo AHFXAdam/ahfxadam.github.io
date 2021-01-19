@@ -1,0 +1,30 @@
+#holder {
+    max-width: 72em;
+    margin:0 auto 5em;
+}
+main {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+header {
+    background-color: purple;
+    color:white;
+    padding:.25em;
+    margin-bottom: 1.75em;
+}
+.red, .blue, .green {
+    padding:.25em;
+}
+section img {
+    width:100%;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color:blue;
+}
+.green {
+    background-color: green;
+}
+
